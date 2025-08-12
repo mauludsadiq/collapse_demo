@@ -1,0 +1,17 @@
+[
+  {
+    "step": 1,
+    "eliminated_token": "Germany",
+    "reasons": "kb:city_matches_country"
+  },
+  {
+    "step": 1,
+    "eliminated_token": "Spain",
+    "reasons": "kb:city_matches_country"
+  },
+  {
+    "step": 2,
+    "eliminated_token": "!",
+    "reasons": "grammar:step1"
+  }
+]

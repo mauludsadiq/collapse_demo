@@ -1,0 +1,153 @@
+[
+  {
+    "step": 1,
+    "candidates": [
+      "the"
+    ],
+    "survivors_after_T": [
+      "the"
+    ],
+    "eliminated": [],
+    "psi_choice": "the",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 2,
+    "candidates": [
+      "team"
+    ],
+    "survivors_after_T": [
+      "team"
+    ],
+    "eliminated": [],
+    "psi_choice": "team",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 3,
+    "candidates": [
+      "completed",
+      "completes",
+      "complete"
+    ],
+    "survivors_after_T": [
+      "completed"
+    ],
+    "eliminated": [
+      {
+        "token": "completes",
+        "reasons": [
+          "tense:must_be_past"
+        ]
+      },
+      {
+        "token": "complete",
+        "reasons": [
+          "tense:must_be_past"
+        ]
+      }
+    ],
+    "psi_choice": "completed",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 4,
+    "candidates": [
+      "the",
+      "a"
+    ],
+    "survivors_after_T": [
+      "the"
+    ],
+    "eliminated": [
+      {
+        "token": "a",
+        "reasons": [
+          "role:definite_object"
+        ]
+      }
+    ],
+    "psi_choice": "the",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 5,
+    "candidates": [
+      "project",
+      "projects"
+    ],
+    "survivors_after_T": [
+      "project"
+    ],
+    "eliminated": [
+      {
+        "token": "projects",
+        "reasons": [
+          "role:singular_object"
+        ]
+      }
+    ],
+    "psi_choice": "project",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 6,
+    "candidates": [
+      "and"
+    ],
+    "survivors_after_T": [
+      "and"
+    ],
+    "eliminated": [],
+    "psi_choice": "and",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 7,
+    "candidates": [
+      "celebrated",
+      "celebrates"
+    ],
+    "survivors_after_T": [
+      "celebrated"
+    ],
+    "eliminated": [
+      {
+        "token": "celebrates",
+        "reasons": [
+          "tense:must_be_past"
+        ]
+      }
+    ],
+    "psi_choice": "celebrated",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 8,
+    "candidates": [
+      ".",
+      "!"
+    ],
+    "survivors_after_T": [
+      "."
+    ],
+    "eliminated": [
+      {
+        "token": "!",
+        "reasons": [
+          "grammar:step7"
+        ]
+      }
+    ],
+    "psi_choice": ".",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  }
+]

@@ -1,0 +1,9 @@
+Step,Candidates,Survivors_after_T,Ψ_choice,Ψ_mode,Entropy_H
+1,the,the,the,unique,0.0
+2,team,team,team,unique,0.0
+3,"completed, completes, complete",completed,completed,unique,0.0
+4,"the, a",the,the,unique,0.0
+5,"project, projects",project,project,unique,0.0
+6,and,and,and,unique,0.0
+7,"celebrated, celebrates",celebrated,celebrated,unique,0.0
+8,"., !",.,.,unique,0.0

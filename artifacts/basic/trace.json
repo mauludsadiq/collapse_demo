@@ -1,0 +1,264 @@
+[
+  {
+    "step": 1,
+    "candidates": [
+      "Alice",
+      "Bob"
+    ],
+    "survivors_after_T": [
+      "Alice"
+    ],
+    "eliminated": [
+      {
+        "token": "Bob",
+        "reasons": [
+          "role:agent_must_be_Alice"
+        ]
+      }
+    ],
+    "psi_choice": "Alice",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 2,
+    "candidates": [
+      "emailed",
+      "called",
+      "texted"
+    ],
+    "survivors_after_T": [
+      "emailed",
+      "called",
+      "texted"
+    ],
+    "eliminated": [],
+    "psi_choice": "emailed",
+    "psi_mode": "ranker",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 3,
+    "candidates": [
+      "Bob",
+      "Alice"
+    ],
+    "survivors_after_T": [
+      "Bob"
+    ],
+    "eliminated": [
+      {
+        "token": "Alice",
+        "reasons": [
+          "role:recipient_must_be_Bob"
+        ]
+      }
+    ],
+    "psi_choice": "Bob",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 4,
+    "candidates": [
+      "and",
+      "."
+    ],
+    "survivors_after_T": [
+      "and"
+    ],
+    "eliminated": [
+      {
+        "token": ".",
+        "reasons": [
+          "role:continue_plan_with_and"
+        ]
+      }
+    ],
+    "psi_choice": "and",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 5,
+    "candidates": [
+      "told",
+      "informed",
+      "notified"
+    ],
+    "survivors_after_T": [
+      "told",
+      "informed",
+      "notified"
+    ],
+    "eliminated": [],
+    "psi_choice": "told",
+    "psi_mode": "ranker",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 6,
+    "candidates": [
+      "him",
+      "her"
+    ],
+    "survivors_after_T": [
+      "him"
+    ],
+    "eliminated": [
+      {
+        "token": "her",
+        "reasons": [
+          "role:pronoun_binds_to_Bob"
+        ]
+      }
+    ],
+    "psi_choice": "him",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 7,
+    "candidates": [
+      "that",
+      "because"
+    ],
+    "survivors_after_T": [
+      "that"
+    ],
+    "eliminated": [
+      {
+        "token": "because",
+        "reasons": [
+          "role:content_that"
+        ]
+      }
+    ],
+    "psi_choice": "that",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 8,
+    "candidates": [
+      "the",
+      "a"
+    ],
+    "survivors_after_T": [
+      "the"
+    ],
+    "eliminated": [
+      {
+        "token": "a",
+        "reasons": [
+          "role:definite_budget"
+        ]
+      }
+    ],
+    "psi_choice": "the",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 9,
+    "candidates": [
+      "budget",
+      "proposal",
+      "report"
+    ],
+    "survivors_after_T": [
+      "budget"
+    ],
+    "eliminated": [
+      {
+        "token": "proposal",
+        "reasons": [
+          "role:doc_is_budget"
+        ]
+      },
+      {
+        "token": "report",
+        "reasons": [
+          "role:doc_is_budget"
+        ]
+      }
+    ],
+    "psi_choice": "budget",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 10,
+    "candidates": [
+      "was",
+      "is"
+    ],
+    "survivors_after_T": [
+      "was"
+    ],
+    "eliminated": [
+      {
+        "token": "is",
+        "reasons": [
+          "grammar:AuxPast",
+          "role:aux_past",
+          "tense:must_be_past"
+        ]
+      }
+    ],
+    "psi_choice": "was",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 11,
+    "candidates": [
+      "approved",
+      "rejected",
+      "approve"
+    ],
+    "survivors_after_T": [
+      "approved"
+    ],
+    "eliminated": [
+      {
+        "token": "rejected",
+        "reasons": [
+          "role:predicate_approved"
+        ]
+      },
+      {
+        "token": "approve",
+        "reasons": [
+          "grammar:Participle",
+          "role:predicate_approved",
+          "tense:must_be_past"
+        ]
+      }
+    ],
+    "psi_choice": "approved",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 12,
+    "candidates": [
+      ".",
+      "!"
+    ],
+    "survivors_after_T": [
+      "."
+    ],
+    "eliminated": [
+      {
+        "token": "!",
+        "reasons": [
+          "grammar:PunctEnd"
+        ]
+      }
+    ],
+    "psi_choice": ".",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  }
+]

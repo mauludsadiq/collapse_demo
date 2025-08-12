@@ -1,0 +1,13 @@
+Step,Candidates,Survivors_after_T,Ψ_choice,Ψ_mode,Entropy_H
+1,"Alice, Bob",Alice,Alice,unique,0.0
+2,"emailed, called, texted","emailed, called, texted",emailed,ranker,0.0
+3,"Bob, Alice",Bob,Bob,unique,0.0
+4,"and, .",and,and,unique,0.0
+5,"told, informed, notified","told, informed, notified",told,ranker,0.0
+6,"him, her",him,him,unique,0.0
+7,"that, because",that,that,unique,0.0
+8,"the, a",the,the,unique,0.0
+9,"budget, proposal, report",budget,budget,unique,0.0
+10,"was, is",was,was,unique,0.0
+11,"approved, rejected, approve",approved,approved,unique,0.0
+12,"., !",.,.,unique,0.0

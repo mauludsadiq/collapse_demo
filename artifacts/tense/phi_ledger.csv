@@ -1,0 +1,7 @@
+Step,Eliminated_Token,Reasons
+3,completes,tense:must_be_past
+3,complete,tense:must_be_past
+4,a,role:definite_object
+5,projects,role:singular_object
+7,celebrates,tense:must_be_past
+8,!,grammar:step7

@@ -1,0 +1,51 @@
+[
+  {
+    "step": 1,
+    "candidates": [
+      "France",
+      "Germany",
+      "Spain"
+    ],
+    "survivors_after_T": [
+      "France"
+    ],
+    "eliminated": [
+      {
+        "token": "Germany",
+        "reasons": [
+          "kb:city_matches_country"
+        ]
+      },
+      {
+        "token": "Spain",
+        "reasons": [
+          "kb:city_matches_country"
+        ]
+      }
+    ],
+    "psi_choice": "France",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 2,
+    "candidates": [
+      ".",
+      "!"
+    ],
+    "survivors_after_T": [
+      "."
+    ],
+    "eliminated": [
+      {
+        "token": "!",
+        "reasons": [
+          "grammar:step1"
+        ]
+      }
+    ],
+    "psi_choice": ".",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  }
+]

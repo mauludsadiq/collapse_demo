@@ -1,0 +1,4 @@
+Step,Eliminated_Token,Reasons
+1,Germany,kb:city_matches_country
+1,Spain,kb:city_matches_country
+2,!,grammar:step1

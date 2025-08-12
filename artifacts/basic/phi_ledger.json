@@ -1,0 +1,62 @@
+[
+  {
+    "step": 1,
+    "eliminated_token": "Bob",
+    "reasons": "role:agent_must_be_Alice"
+  },
+  {
+    "step": 3,
+    "eliminated_token": "Alice",
+    "reasons": "role:recipient_must_be_Bob"
+  },
+  {
+    "step": 4,
+    "eliminated_token": ".",
+    "reasons": "role:continue_plan_with_and"
+  },
+  {
+    "step": 6,
+    "eliminated_token": "her",
+    "reasons": "role:pronoun_binds_to_Bob"
+  },
+  {
+    "step": 7,
+    "eliminated_token": "because",
+    "reasons": "role:content_that"
+  },
+  {
+    "step": 8,
+    "eliminated_token": "a",
+    "reasons": "role:definite_budget"
+  },
+  {
+    "step": 9,
+    "eliminated_token": "proposal",
+    "reasons": "role:doc_is_budget"
+  },
+  {
+    "step": 9,
+    "eliminated_token": "report",
+    "reasons": "role:doc_is_budget"
+  },
+  {
+    "step": 10,
+    "eliminated_token": "is",
+    "reasons": "grammar:AuxPast;role:aux_past;tense:must_be_past"
+  },
+  {
+    "step": 11,
+    "eliminated_token": "rejected",
+    "reasons": "role:predicate_approved"
+  },
+  {
+    "step": 11,
+    "eliminated_token": "approve",
+    "reasons": "grammar:Participle;role:predicate_approved;tense:must_be_past"
+  },
+  {
+    "step": 12,
+    "eliminated_token": "!",
+    "reasons": "grammar:PunctEnd"
+  }
+]

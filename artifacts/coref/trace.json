@@ -1,0 +1,121 @@
+[
+  {
+    "step": 1,
+    "candidates": [
+      "She",
+      "He",
+      "They"
+    ],
+    "survivors_after_T": [
+      "She"
+    ],
+    "eliminated": [
+      {
+        "token": "He",
+        "reasons": [
+          "coref:female_she"
+        ]
+      },
+      {
+        "token": "They",
+        "reasons": [
+          "coref:female_she"
+        ]
+      }
+    ],
+    "psi_choice": "She",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 2,
+    "candidates": [
+      "presented",
+      "presents"
+    ],
+    "survivors_after_T": [
+      "presented"
+    ],
+    "eliminated": [
+      {
+        "token": "presents",
+        "reasons": [
+          "tense:must_be_past"
+        ]
+      }
+    ],
+    "psi_choice": "presented",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 3,
+    "candidates": [
+      "the",
+      "a"
+    ],
+    "survivors_after_T": [
+      "the"
+    ],
+    "eliminated": [
+      {
+        "token": "a",
+        "reasons": [
+          "role:definite_results"
+        ]
+      }
+    ],
+    "psi_choice": "the",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 4,
+    "candidates": [
+      "results",
+      "budget",
+      "report"
+    ],
+    "survivors_after_T": [
+      "results"
+    ],
+    "eliminated": [
+      {
+        "token": "budget",
+        "reasons": [
+          "role:present_results"
+        ]
+      },
+      {
+        "token": "report",
+        "reasons": [
+          "role:present_results"
+        ]
+      }
+    ],
+    "psi_choice": "results",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  },
+  {
+    "step": 5,
+    "candidates": [
+      ".",
+      "!"
+    ],
+    "survivors_after_T": [
+      "."
+    ],
+    "eliminated": [
+      {
+        "token": "!",
+        "reasons": [
+          "grammar:step4"
+        ]
+      }
+    ],
+    "psi_choice": ".",
+    "psi_mode": "unique",
+    "entropy_H": 0.0
+  }
+]

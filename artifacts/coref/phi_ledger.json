@@ -1,0 +1,37 @@
+[
+  {
+    "step": 1,
+    "eliminated_token": "He",
+    "reasons": "coref:female_she"
+  },
+  {
+    "step": 1,
+    "eliminated_token": "They",
+    "reasons": "coref:female_she"
+  },
+  {
+    "step": 2,
+    "eliminated_token": "presents",
+    "reasons": "tense:must_be_past"
+  },
+  {
+    "step": 3,
+    "eliminated_token": "a",
+    "reasons": "role:definite_results"
+  },
+  {
+    "step": 4,
+    "eliminated_token": "budget",
+    "reasons": "role:present_results"
+  },
+  {
+    "step": 4,
+    "eliminated_token": "report",
+    "reasons": "role:present_results"
+  },
+  {
+    "step": 5,
+    "eliminated_token": "!",
+    "reasons": "grammar:step4"
+  }
+]

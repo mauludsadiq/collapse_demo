@@ -1,0 +1,6 @@
+Step,Candidates,Survivors_after_T,Ψ_choice,Ψ_mode,Entropy_H
+1,"She, He, They",She,She,unique,0.0
+2,"presented, presents",presented,presented,unique,0.0
+3,"the, a",the,the,unique,0.0
+4,"results, budget, report",results,results,unique,0.0
+5,"., !",.,.,unique,0.0

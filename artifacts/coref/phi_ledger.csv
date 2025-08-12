@@ -1,0 +1,8 @@
+Step,Eliminated_Token,Reasons
+1,He,coref:female_she
+1,They,coref:female_she
+2,presents,tense:must_be_past
+3,a,role:definite_results
+4,budget,role:present_results
+4,report,role:present_results
+5,!,grammar:step4

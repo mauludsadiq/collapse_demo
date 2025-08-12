@@ -1,0 +1,13 @@
+Step,Eliminated_Token,Reasons
+1,Bob,role:agent_must_be_Alice
+3,Alice,role:recipient_must_be_Bob
+4,.,role:continue_plan_with_and
+6,her,role:pronoun_binds_to_Bob
+7,because,role:content_that
+8,a,role:definite_budget
+9,proposal,role:doc_is_budget
+9,report,role:doc_is_budget
+10,is,grammar:AuxPast;role:aux_past;tense:must_be_past
+11,rejected,role:predicate_approved
+11,approve,grammar:Participle;role:predicate_approved;tense:must_be_past
+12,!,grammar:PunctEnd

@@ -1,0 +1,32 @@
+[
+  {
+    "step": 3,
+    "eliminated_token": "completes",
+    "reasons": "tense:must_be_past"
+  },
+  {
+    "step": 3,
+    "eliminated_token": "complete",
+    "reasons": "tense:must_be_past"
+  },
+  {
+    "step": 4,
+    "eliminated_token": "a",
+    "reasons": "role:definite_object"
+  },
+  {
+    "step": 5,
+    "eliminated_token": "projects",
+    "reasons": "role:singular_object"
+  },
+  {
+    "step": 7,
+    "eliminated_token": "celebrates",
+    "reasons": "tense:must_be_past"
+  },
+  {
+    "step": 8,
+    "eliminated_token": "!",
+    "reasons": "grammar:step7"
+  }
+]
